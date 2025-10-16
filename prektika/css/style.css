@@ -1,0 +1,28 @@
+.one {
+    color: blue;
+    text-decoration: double;
+    text-decoration-line: underline;
+    width: 400px;
+    background: #e8e8e8;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #e8e8e8;
+    box-sizing: border-box;
+
+
+    font-family: "Playwrite DE Grund Guides", cursive;
+    text-align: center;
+    padding-top: 190px;
+}
+
+.end_text {
+    background: #939393;
+    color: #ffffff;
+
+    max-width: 400px;
+    min-width: 100px;
+}
