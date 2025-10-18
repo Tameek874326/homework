@@ -1,0 +1,170 @@
+.head-1 {
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 10px;
+    background: #5e68b6;
+    border-radius: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-logo {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.cars-text {
+    font-family: "Merienda", cursive;
+
+}
+
+.bg-site {
+    margin: 0;
+    width: 100%;
+    height: 1300px;
+    background: #b3c0ff70;
+    border-radius: 25px;
+}
+
+h1 {
+    color: #5e68b6;
+    font-family: "Merienda", cursive;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-layoud {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.sidebar {
+    background: #9da5df;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: "Merienda", cursive;
+    height: fit-content;
+}
+
+.sidebar h4 {
+    color: #5e68b6;
+    margin-top: 0;
+    border-bottom: 2px solid #5e68b6;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+
+.sidebar ul li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+
+.sidebar a {
+    color: #5e68b6;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8,
+.card-9 {
+    height: 200px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #5e68b6;
+    box-shadow: inset 0 0 50px 0 rgb(0, 0, 0), 0 4px 8px #5e68b6;
+}
+
+
+.card-content {
+    z-index: 2;
+    padding: 20px;
+    color: white;
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+}
+
+.card-content h3 {
+    margin: 0 0 10px 0;
+}
+
+
+.card-1 {
+    background-image: url(https://images.drive.ru/i/0/51ee204294a6563b6e000094);
+}
+
+.card-2 {
+    background-image: url(https://img.goodfon.ru/wallpaper/big/e/1e/bmw-435i-gran-coupe-m-sport.webp);
+}
+
+.card-3 {
+    background-image: url(https://images.drive.ru/i/0/5473338495a656f3dd000033);
+}
+
+.card-4 {
+    background-image: url(https://cdn.rmsothebys.com/9/a/7/4/7/c/9a747c9a506ea241a81f28f763eb497221807071.webp);
+}
+
+.card-5 {
+    background-image: url(https://auto.ironhorse.ru/wp-content/uploads/2018/05/Aventador-tmb-550x300.jpg);
+}
+
+.card-6 {
+    background-image: url(https://dvizhok.su/i/files/images/Goodwood_3.jpg);
+}
+
+.card-7 {
+    background-image: url(https://news.store.rambler.ru/img/970a77cb5a74ed4bd6ed3dc3dd7f261f?img-format=auto&img-1-resize=height:400,fit:max&img-2-filter=sharpen);
+}
+
+.card-8 {
+    background-image: url(https://img.hyundai.ru/uploads/5a5dc1edc9675.jpg);
+}
+
+.card-9 {
+    background-image: url(https://pitstop.kz/wp-content/uploads/2024/06/09-2025-honda-civic-hatchback-sport-touring-hybrid.jpg);
+}
